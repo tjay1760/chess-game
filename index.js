@@ -134,7 +134,7 @@ function dragDrop(e) {
   }
   if (valid) {
     e.target.append(draggedElement);
-    checkForWin()
+    //checkForWin()
     changePlayer();
     return;
   }
